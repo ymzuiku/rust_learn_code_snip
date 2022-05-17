@@ -2,3 +2,4 @@
 // 陈天，极客时间，rust第一课的内容
 
 pub mod l03;
+pub mod l04;
