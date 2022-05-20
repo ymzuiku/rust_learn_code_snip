@@ -1,0 +1,4 @@
+make: Entering directory `/Users/liangzhu/Documents/work/rust_learn_code_snip/life'
+cargo run --example trait_learn
+make: Leaving directory `/Users/liangzhu/Documents/work/rust_learn_code_snip/life'
+ 

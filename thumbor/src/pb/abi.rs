@@ -41,11 +41,11 @@ pub struct Crop {
     #[prost(uint32, tag="1")]
     pub x1: u32,
     #[prost(uint32, tag="2")]
-    pub x2: u32,
+    pub y1: u32,
     #[prost(uint32, tag="3")]
-    pub x3: u32,
+    pub x2: u32,
     #[prost(uint32, tag="4")]
-    pub x4: u32,
+    pub y2: u32,
 }
 /// 处理水平翻转
 #[derive(Clone, PartialEq, ::prost::Message)]

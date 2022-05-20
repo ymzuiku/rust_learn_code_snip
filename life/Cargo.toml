@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "life"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[example]]
+name = "life"
+
+[[example]]
+name = "trait_learn"
+
+[[example]]
+name = "trait_learn2"
+
+[[example]]
+name = "trait_learn3"
+
+[[example]]
+name = "trait_learn4"
+
+[[exmaple]]
+name = "trait_learn5"
+
+[[exmaple]]
+name = "trait_learn6"
+
+[[exmaple]]
+name = "trait_learn7"
+
+[[exmaple]]
+name = "trait_learn8"
+
+[[exmaple]]
+name = "trait_learn9"
+
+[[exmaple]]
+name = "trait_learn10"
+
+[[exmaple]]
+name = "trait_learn11"
+
+[[exmaple]]
+name = "trait_learn12"
+
+[[exmaple]]
+name = "trait_learn13"
+
+[[exmaple]]
+name = "trait_learn14"
+
+[dependencies]
+lazy_static = "1.4"
+regex = "1.5.5"
+serde = {version = "1", features = ["derive"]}
+serde_json = "1"
+url = "2.2"

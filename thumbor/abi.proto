@@ -33,9 +33,9 @@ message Resize {
 // 处理图片截取
 message Crop {
     uint32 x1 = 1;
-    uint32 x2 = 2;
-    uint32 x3 = 3;
-    uint32 x4 = 4;
+    uint32 y1 = 2;
+    uint32 x2 = 3;
+    uint32 y2 = 4;
 }
 
 // 处理水平翻转

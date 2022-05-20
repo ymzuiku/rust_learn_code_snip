@@ -1,0 +1,4 @@
+make: Entering directory `/Users/liangzhu/Documents/work/rust_learn_code_snip/queryer'
+cargo run --example covid
+make: Leaving directory `/Users/liangzhu/Documents/work/rust_learn_code_snip/queryer'
+ 
