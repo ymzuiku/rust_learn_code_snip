@@ -10,23 +10,19 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Fri May 20 08:58:24 2022
+# Make data base, printed on Fri May 20 19:40:15 2022
 
 # Variables
 
- 
 # environment
 hpv_master = root@59.110.155.34
-# environment
-VSCODE_GIT_ASKPASS_MAIN = /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
+ 
 NVM_IOJS_ORG_MIRROR = https://npm.taobao.org/mirrors/iojs
 # automatic
 ?F = $(notdir $?)
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 VSCODE_LOG_NATIVE = false
 # automatic
@@ -62,11 +58,11 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-INFOPATH = /opt/homebrew/share/info:/opt/homebrew/share/info:
+INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/7s/7lfkw9q117q7cj9bfwgc7fjc0000gn/T/vscode-ipc-b255e2ef-139b-4456-8f58-f42aa64071ee.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/7s/7lfkw9q117q7cj9bfwgc7fjc0000gn/T/vscode-ipc-fb20c2c7-be13-4e93-8622-e1ecf3f47309.sock
 # environment
-VSCODE_CWD = /Users/liangzhu/Documents/work/rust_learn_code_snip
+VSCODE_CWD = /
 # environment
 NO_PROXY = localhost,127.0.0.1
 # environment
@@ -96,7 +92,7 @@ HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-MANPATH = /opt/homebrew/share/man:/usr/share/man:/usr/local/share/man:/opt/homebrew/share/man:
+MANPATH = /opt/homebrew/share/man::
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -104,10 +100,7 @@ HOME = /Users/liangzhu
 # environment
 NVMW_NODEJS_ORG_MIRROR = https://npm.taobao.org/mirrors/node
 # default
- 
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
-# environment
-VSCODE_CLI = 1
 # environment
 VSCODE_CODE_CACHE_PATH = /Users/liangzhu/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
 # environment
@@ -123,19 +116,15 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 MAKELEVEL := 0
 # environment
-VSCODE_GIT_IPC_HANDLE = /var/folders/7s/7lfkw9q117q7cj9bfwgc7fjc0000gn/T/vscode-git-aa8e9d5d12.sock
-# environment
 XPC_FLAGS = 0x0
-# environment
-COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-PATH = /Users/liangzhu/npm-global/bin:/Users/liangzhu/node_global/bin:../usr/local/bin:/usr/bin:/Users/pillar/.deno/bin:/Users/liangzhu/bin:/Library/PostgreSQL/13/bin:/Users/liangzhu/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/liangzhu/npm-global/bin:/Users/liangzhu/node_global/bin:../usr/local/bin:/Users/pillar/.deno/bin:/Users/liangzhu/bin:/Library/PostgreSQL/13/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/liangzhu/.cargo/bin:/Applications/source/flutter/bin:/Applications/source/.pub-cache/bin:/Users/liangzhu/go/bin:/Library/Java/JavaVirtualMachines/zulu-jdk8/Contents/Home/bin:/usr/local/mysql/bin:/Users/liangzhu/Library/Android/sdk/tools:/Users/liangzhu/Library/Android/sdk/platform-tools:/Applications/source/work/mongo/mongodb-macos/bin:/Applications/source/flutter/bin:/Applications/source/.pub-cache/bin:/Users/liangzhu/bin:/usr/local/go/bin:/Users/liangzhu/go/bin:/Library/Java/JavaVirtualMachines/zulu-jdk8/Contents/Home/bin:/usr/local/mysql/bin:/Users/liangzhu/Library/Android/sdk/tools:/Users/liangzhu/Library/Android/sdk/platform-tools:/Applications/source/work/mongo/mongodb-macos/bin
+PATH = /Users/liangzhu/npm-global/bin:/Users/liangzhu/node_global/bin:../usr/local/bin:/usr/bin:/Users/pillar/.deno/bin:/Users/liangzhu/bin:/Library/PostgreSQL/13/bin:/Users/liangzhu/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/liangzhu/.cargo/bin:/Applications/source/flutter/bin:/Applications/source/.pub-cache/bin:/Users/liangzhu/bin:/usr/local/go/bin:/Users/liangzhu/go/bin:/Library/Java/JavaVirtualMachines/zulu-jdk8/Contents/Home/bin:/usr/local/mysql/bin:/Users/liangzhu/Library/Android/sdk/tools:/Users/liangzhu/Library/Android/sdk/platform-tools:/Applications/source/work/mongo/mongodb-macos/bin
 # environment
-SHLVL = 3
+SHLVL = 1
 # environment
 googleIp_root_35_197_72_129 = root@35.197.72.129
 # environment
@@ -160,10 +149,6 @@ LESS = -R
 MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
 # environment
 NODIST_IOJS_MIRROR = https://npm.taobao.org/mirrors/iojs
-# environment
-VSCODE_GIT_ASKPASS_EXTRA_ARGS = --ms-enable-electron-run-as-node
-# environment
-TERM_PROGRAM = vscode
 # default
 .VARIABLES := 
 # environment
@@ -175,8 +160,6 @@ NODE_PATH = /usr/local/lib/node_modules
 # environment
 VSCODE_IPC_HOOK = /Users/liangzhu/Library/Application Support/Code/1.67.1-main.sock
 # environment
-VSCODE_GIT_ASKPASS_NODE = /Applications/Visual Studio Code.app/Contents/MacOS/Electron
-# environment
 ENABLE_WEB = true
 # environment
 JAVA_HOMECLASS_PATH = /Library/Java/JavaVirtualMachines/zulu-jdk8/Contents/Home/lib
@@ -187,9 +170,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-TERM_PROGRAM_VERSION = 1.67.1
-# environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.38461099.38461105.55480087-7407-45AB-9BC3-EDD5E4FE3A2D
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.38461099.38461105
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -204,8 +185,6 @@ HOMEBREW_REPOSITORY = /opt/homebrew
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
 COMMAND_MODE = unix2003
-# environment
-GIT_ASKPASS = /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
 # default
 MAKEFILES := 
 # automatic
@@ -245,7 +224,7 @@ VSCODE_PID = 93714
 # environment
 NODEJS_ORG_MIRROR = https://npm.taobao.org/mirrors/node
 # variable set hash-table stats:
-# Load=114/1024=11%, Rehash=0, Collisions=8/135=6%
+# Load=104/1024=10%, Rehash=0, Collisions=7/125=6%
 
 # Pattern-specific Variable Values
 
@@ -253,9 +232,9 @@ NODEJS_ORG_MIRROR = https://npm.taobao.org/mirrors/node
 
 # Directories
 
-# . (device 16777230, inode 39054790): 10 files, no impossibilities.
+# . (device 16777230, inode 39054790): 11 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -322,11 +301,12 @@ GNUmakefile:
 
 # No general (`VPATH' variable) search path.
 
+ 
 # # of strings in strcache: 0
 # # of strcache buffers: 0
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Fri May 20 08:58:24 2022
+# Finished Make data base on Fri May 20 19:40:15 2022
 
  
